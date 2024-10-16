@@ -1,48 +1,46 @@
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #4CAF50; /* สีพื้นหลังของ header */
-    color: white;
+    background: #4CAF50;
+    color: #fff;
+    padding: 20px 0;
     text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
     padding: 20px;
 }
 
-.promo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
-}
-
-.promo-image {
-    width: 50%;
-    height: auto;
-}
-
-.promo-text {
-    margin-left: 20px;
-}
-
-.features {
-    padding: 20px;
-}
-
-.feature-item {
-    margin: 20px 0;
-    padding: 10px;
-    background-color: #f1f1f1;
+h1, h2 {
+    color: #333;
 }
 
 footer {
     text-align: center;
-    padding: 10px;
-    background-color: #4CAF50;
+    padding: 10px 0;
+    background: #4CAF50;
     color: white;
-    position: fixed;
-    width: 100%;
+    position: relative;
     bottom: 0;
+    width: 100%;
 }
