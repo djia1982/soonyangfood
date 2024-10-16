@@ -3,27 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Soonyang Food</title>
-    <link rel="stylesheet" href="styles.css"> <!-- เชื่อมโยงกับไฟล์ CSS -->
 </head>
 <body>
     <header>
         <h1>ยินดีต้อนรับสู่ Soonyang Food</h1>
-        <p>ที่นี่คุณสามารถค้นหาร้านอาหารที่ดีที่สุด!</p>
+        <nav>
+            <ul>
+                <li><a href="#grabfood">SYFood</a></li>
+                <li><a href="#grabkitchen">SYFoodStores</a></li>
+                <li><a href="#grabmart">SYRider</a></li>
+                <li><a href="#dineout">Dine-Out</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <section>
-            <h2>เมนูอาหารของเรา</h2>
-            <ul>
-                <li>อาหารไทย</li>
-                <li>อาหารอิตาเลียน</li>
-                <li>อาหารญี่ปุ่น</li>
-                <li>อาหารฝรั่งเศส</li>
-            </ul>
+        <section id="syfood">
+            <h2>GrabFood</h2>
+            <p>ที่นี่คุณสามารถค้นหาร้านอาหารที่ดีที่สุด!</p>
         </section>
-        <section>
-            <h2>เกี่ยวกับเรา</h2>
-            <p>เราคือ Soonyang Food มุ่งมั่นที่จะนำเสนอประสบการณ์การทานอาหารที่ดีที่สุดให้กับคุณ</p>
+        <section id="syfoodstores">
+            <h2>GrabKitchen</h2>
+            <p>เพิ่มโอกาสในการสร้างรายได้ด้วย GrabKitchen!</p>
+        </section>
+        <section id="syrider">
+            <h2>GrabMart</h2>
+            <p>พบกับสินค้าหลากหลายที่ GrabMart!</p>
+        </section>
+        <section id="dineout">
+            <h2>Dine-Out</h2>
+            <p>สนุกสนานกับการรับประทานอาหารนอกบ้าน!</p>
         </section>
     </main>
     <footer>
